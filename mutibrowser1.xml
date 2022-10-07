@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+<test  name="Test_Chrome">
+  <parameter name="browserName" value="Chrome"/>
+  <classes>
+  <class name="TESTNG.multibrowser1"/>
+   </classes>
+    </test><!-- Test -->
+    <test  name="Test_firefox">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+    <class name="TESTNG.mutibrowser1"/>
+    </classes>
+   </test><!-- Test -->
+   </suite> <!-- Suite -->

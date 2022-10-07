@@ -1,0 +1,13 @@
+<suite name="Suite">
+  <test  name="Test">
+    <classes>
+      <class name="TESTNG.diaabled2">
+      <methods>
+       <include name="tc1"></include>
+        <include name="tc2"></include>
+        <exclude name="tc3"></exclude>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

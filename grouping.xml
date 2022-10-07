@@ -1,0 +1,15 @@
+<suite name="Suite">
+  <test  name="Test">
+  <groups>
+  <run>
+  <include name="login"/>
+  <include name="profile"/>
+  <include name ="order"> </include>
+  </run>
+  </groups>
+  
+    <classes>
+      <class name="TESTNG.grouping1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
